@@ -1,4 +1,4 @@
-import 'package:expenses/pages/home_page.dart';
+import 'package:expenses/pages/todo_page.dart';
 import 'package:expenses/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: AppColors.purple,
       ),
-      home: const HomePage(),
+      home: const TodoPage(),
     );
   }
 }
